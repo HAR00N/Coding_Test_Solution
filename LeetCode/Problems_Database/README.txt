@@ -1,0 +1,1 @@
+This query was solved on MySQL.
