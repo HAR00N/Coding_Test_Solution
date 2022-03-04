@@ -1,18 +1,19 @@
--- -----------------------------------------------------------------------------
--- Write an SQL query to find the employees who earn more than their managers --
--- -----------------------------------------------------------------------------
+/* Question
+Write an SQL query to find the employees who earn more than their managers --
+*/
 
--- CREATE SCHEMA `leetcode_181` ;
--- CREATE TABLE EMPLOYEE (	
--- 	ID 			INT PRIMARY KEY, 
--- 	NAME 		VARCHAR(50),
--- 	SALARY 		INT,
--- 	MANAGERID 	INT	);
+/* Setting
+CREATE SCHEMA `leetcode_181` ;
 
--- INSERT INTO EMPLOYEE (ID, NAME, SALARY, MANAGERID) VALUES (1,'JOE',70000,3);
--- INSERT INTO EMPLOYEE (ID, NAME, SALARY, MANAGERID) VALUES (2,'HENRY',80000,4);
--- INSERT INTO EMPLOYEE (ID, NAME, SALARY, MANAGERID) VALUES (3,'SAM',60000,NULL);
--- INSERT INTO EMPLOYEE (ID, NAME, SALARY, MANAGERID) VALUES (4,'MAX',90000,NULL);
+CREATE TABLE EMPLOYEE (	
+	ID 			INT PRIMARY KEY, 
+	NAME 		VARCHAR(50),
+	SALARY 		INT,
+	MANAGERID 	INT	);
+
+INSERT INTO EMPLOYEE (ID, NAME, SALARY, MANAGERID) VALUES 
+(1,'JOE',70000, 3), (2,'HENRY',80000, 4), (3,'SAM',60000, NULL), (4,'MAX',90000, NULL);
+*/
 
 SELECT * FROM EMPLOYEE;
 

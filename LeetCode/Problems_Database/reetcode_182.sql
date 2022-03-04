@@ -1,15 +1,17 @@
--- ---------------------------------------------------------
--- Write an SQL query to report all the duplicate emails. --
--- ---------------------------------------------------------
+/* Question
+Write an SQL query to report all the duplicate emails.
+*/
 
--- CREATE SCHEMA `leetcode_182` ;
--- CREATE TABLE PERSON (
--- 	ID 		INT PRIMARY KEY, 
--- 	EMAIL 	VARCHAR(50) );
+/* Setting
+CREATE SCHEMA `leetcode_182` ;
 
--- INSERT INTO PERSON VALUES (1,'a@b.com');
--- INSERT INTO PERSON VALUES (2,'c@d.com');
--- INSERT INTO PERSON VALUES (3,'a@b.com');
+CREATE TABLE PERSON (
+	ID 		INT PRIMARY KEY, 
+	EMAIL 	VARCHAR(50) );
+
+INSERT INTO PERSON VALUES 
+(1,'a@b.com'), (2,'c@d.com'), (3,'a@b.com');
+*/
 
 SELECT * FROM PERSON;
 
